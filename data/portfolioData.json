@@ -1,0 +1,76 @@
+{
+  "portfolio": [
+    {
+      "id": "pi1",
+      "owner": "Madbookings",
+      "title": "Namibia wildlife resort - Namibia",
+      "description": " and was created by the owners making use of HTM and CSS. Later Bootstarap with JQuery was added to make it more user friendly for handheld devises. Current maintenance includes updating of the camps information, prices, SEO and CSS. This website is very successful on the web and is easy to maintain due to the fact that it is not polluted with unnecessary back office programs. A very advanced booking form will be added that includes &ndash; Java Script, Recapcha and nodemailer to send the booking forms to Madbookings without relying on third party products. This reduces the risk of cyber attacks via non-secure third party products.",
+      "titleHref": "http://www.nwrnamibia.com/",
+      "ownHref": "http://www.madbookings.com",
+      "img": "/images/nwrnamibia.png",
+      "alt": "Namibia Wildlife Resort",
+      "status": "Current - Ongoing",
+      "gitRepository": "To Follow"
+    },
+    {
+      "id": "pi2",
+      "owner": "Madbookings",
+      "title": "Ai-Ais Resort",
+      "description": "This website is owned by Madbookings and was created by the owners making use of HTM and CSS. Later Bootstarap with JQuery was added to make it more user friendly for handheld devises. Current maintenance includes updating of the camps information, prices, SEO and CSS. This website is dedicated to promote Ai-Ais resort in Namibia. The advanced booking form used is on a separate server and prevent robot attacks by making use of reCAPCHA.",
+      "titleHref": "http://www.aiaisresort.com",
+      "ownHref": "http://www.madbookings.com",
+      "img": "/images/aiaisresort-ind.png",
+      "alt": "Ai-Ais resort",
+      "status": "Current - Ongoing",
+      "gitRepository": "To Follow"
+    },
+    {
+      "id": "pi3",
+      "owner": "Madbookings",
+      "title": "Sossus Dune Lodge",
+      "description": "This website is owned by Madbookings and was created by the owners making use of HTM and CSS. Later Bootstarap with JQuery was added to make it more user friendly for handheld devises. Current maintenance includes updating of the camps information, prices, SEO and CSS. This website is dedicated to promote Sossus Dune Lodge in Namibia. The advanced booking form used is on a separate server and prevent robot attacks by making use of reCAPCHA.",
+      "titleHref": "http://www.sossusdunelodge.com",
+      "ownHref": "http://www.madbookings.com",
+      "img": "/images/sossusdunelodge-ind.png",
+      "alt": "Sossusdune Lodge",
+      "status": "Current - Ongoing",
+      "gitRepository": "To Follow"
+    },
+    {
+      "id": "pi4",
+      "owner": "Radio Vision",
+      "title": "Radio Vision",
+      "description": " This website is a little bit more advanced than the normal basic website as the pages are split in two. There is a large gallery with products that can be ordered from Radio Vision that can be customised to fit the need of customer and can even be converted to an online shop. This is just a HTML and CSS website that is very affordable and easy maintainable. Google documents are used for sending the forms and recordkeeping of the emails received.",
+      "titleHref": "http://www.radiovision.co.za/",
+      "ownHref": "http://www.radiovision.co.za/",
+      "img": "/images/radioVision.jpg",
+      "alt": "Radio Vision",
+      "status": "Current - Ongoing",
+      "gitRepository": "To Follow"
+    },
+    {
+      "id": "pi5",
+      "owner": "Lesawi Services",
+      "title": "Advanced Form",
+      "description": "This form is currently used on www.aiaisresort.com and www.sossusdunelodge.com to send the customer intermarries to Madbookings making use of nodemailer. The form send various email Data verification email. – The raw details are send as a backup to an email should some of the data get corrupted. Intermarry email – This email is send to the company so that they can do the booking. Supplier emails – This capability allow for the booking requests to be send to the suppliers as a automated email. The form is making use of the Recapcha module maintained by Google to ensure that robots do not spam the form. This also stop malware from sending fake emails.",
+      "titleHref": "http://www.madbookingsreviews.com/forms/index.html?Ai-Ais|http://www.lesawi.co.za",
+      "ownHref": "http://www.lesawi.co.za",
+      "img": "/images/advanceForm.png",
+      "alt": "Advnced forms",
+      "status": "Current - Ongoing",
+      "gitRepository": "To Follow"
+    },
+    {
+      "id": "pi6",
+      "owner": "Lesawi Services",
+      "title": "Goggaliefies Daycare",
+      "description": "The pages and content will changed as this is some ideas to help the customer to decide what she wants in the final site. This is a very basic website for the customer as they do not need for a large complicated website. Only a presence on the web with some basic details about the day care centre and contact details is sufficient. I will be using HTML and CSS to create this site with Forms.app - For submitting of the contact form. (This might change to nodemailer.)",
+      "titleHref": "http://boneswvb.github.io/goggaliefies09042022/index.html",
+      "ownHref": "http://boneswvb.github.io/goggaliefies09042022/index.html",
+      "img": "/images/goggaliefies1.jpg",
+      "alt": "Goggaliefies Bytjie",
+      "status": "Possible future project",
+      "gitRepository": "To Follow"
+    }
+  ]
+}
