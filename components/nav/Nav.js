@@ -42,7 +42,7 @@ function Navigation() {
                     Portfolio
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href={{
                       pathname: "/price-page",
@@ -50,7 +50,7 @@ function Navigation() {
                   >
                     Pricing
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     href={{

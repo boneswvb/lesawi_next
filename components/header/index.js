@@ -11,22 +11,20 @@ function Header() {
             width={70}
             height={70}
             src="/images/ls.jpg"
-            alt="NWR Namibia Web Site"
+            alt="Lesawi Services Logo"
           />
         </span>
       </div>
-      <div>
+      <div className={styles.heading}>
         <h3>
-          LeSaWi Services - Website
+          LeSaWi Services
           <br />
-          Wep-app development
+          Website & Wep-app development
         </h3>
         <h5>Striving for more than just excellence</h5>
       </div>
       <div>
         <p>
-          Cell: +27 (0) 71 099 2811
-          <br />
           Cell: +27 (0) 61 525 0362
           <br />
           Emai: info@lesawi.co.za

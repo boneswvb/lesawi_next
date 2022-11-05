@@ -1,1 +1,152 @@
+.backGround {
+  border-radius: 15px;
+  background-image: radial-gradient(#ff0000 15%, #ffff00 25%, #ffa500 60%);
+  padding: 5px;
+}
 
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.ul {
+  list-style-type: none;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.ul > li:hover {
+  transform: scale(1.5);
+}
+
+.quote {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  border: 2px #00ffff solid;
+  border-radius: 40%;
+  padding: 15px;
+  background-image: linear-gradient(
+    to right,
+    #f00,
+    #704c0a,
+    #808012,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  cursor: pointer;
+}
+
+.displayInline {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.displayInlineItem {
+  margin: 20px;
+  padding: 20px;
+}
+
+.circleHeading {
+  font-size: 24px;
+  color: #00f;
+  text-decoration: underline;
+}
+
+.circle {
+  background-color: aqua;
+  border: #00f 2px solid;
+  border-radius: 50%;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.square {
+  background-color: aqua;
+  border: #00f 2px solid;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button {
+  position: relative;
+  background-color: aqua;
+  color: #f00;
+  border: #00f 2px solid;
+  border-radius: 5px;
+  width: 33%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.button:active {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+}
+
+.whatWeDoBox {
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}
+.item6 {
+  grid-area: testa;
+}
+.item7 {
+  grid-area: testb;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu menu right right right footer"
+    "menu menu main main testa testb";
+  gap: 10px;
+  background-color: #ffff00;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gridContainer > div {
+  background-image: radial-gradient(#ffa500 15%, #ffa500 25%, #ffa500 60%);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border-radius: 10px;
+}
